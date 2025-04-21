@@ -18,7 +18,7 @@ int main(){
         cin>>u>>v;
 
         adj[u].push_back(v);
-        adj[v].push_back(u);
+        adj[v].push_back(u); //If the graph is directed just comment this line
     }
 
     /*BFS*/
